@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body html{
+height: 100%;
+width: 100%;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(57, 55, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-container{
+    height: 85%;
+    width: 70%;
+   
+    display: flex;
+
+   
+}
+.colm-box{
+    height: 100%;
+    width: 8%;
+    background-color: #fff;
+    padding-top: 10px;
+}
+.logo-section{
+    height: 50px;
+    width: 50px;
+    margin: auto;
+}
+.logo-section img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.negtion-bar{
+    margin-top: 150px;
+}
+.negtion-bar ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+.negtion-bar ul li{
+    font-size: 20px;
+
+}
+.negtion-bar ul li:hover{
+    border-bottom: 2px solid crimson;
+}
+.log-out{
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    flex-direction: column;
+}
+.log-out p{
+    font-size: 10px;
+}
+
+
+
+.row-box{
+    height: 100%;
+    width: 100%;
+    background-color: #1c1b1b;
+}
+.content-box{
+    
+    width: 310px;
+    background-color: #282726;
+   
+  
+    padding: 20px 10px;
+}
+
+.net-series{
+    height: 25px;
+    width: 25px;
+   
+}
+.net-series img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.netflix-header{
+    display: flex;
+   
+    align-items: center;
+   
+}
+.netflix-header p{
+    color: white;
+    
+}
+.series-name h1{
+    color: white;
+    font-size: 50px;
+
+}
+span{
+    background-color: rgb(231, 32, 72);
+    color: black;
+    font-size: 50px;
+    padding: 5px;
+}
+.series-name p{
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 550;
+    color: white;
+}
+.rating{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.rating h4{
+    background-color: yellow;
+    color: black;
+    padding: 5px;
+    font-size: 20px;
+}
+.rating p{
+    color: white;
+    font-size: 20px;
+}
+.streams{
+    display: flex;
+    gap: 5px;
+    padding: 10px 0;
+}
+.streams h4{
+    color: crimson;
+    font-size: 20px;
+}
+.streams p{
+    color: white;
+    font-size: 20px;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.btn-container button:nth-child(1){
+    padding: 10px 20px;
+    background-color: crimson;
+    color: white;
+    border-radius: 50px;
+    border: none;
+}
+.btn-container button:nth-child(2){
+    padding: 10px 20px;
+    background-color: rgb(166, 161, 162);
+    color: black;
+    border-radius: 50px;
+    border: none;
+}
+.hero-section{
+    display: flex;
+}
+.series-poster{
+    height: 310px;
+    width: 700px;
+
+}
+.series-poster img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   object-position: center;
+}
+.popular-movie h3{
+    color: white;
+  padding:4px 5px;
+ 
+}
+.movies-container{
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+}
+.movies-box{
+    height: 250px;
+    width: 250px;
+  
+    border-right: 1px solid rgb(84, 82, 82);
+}
+.movies-box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
